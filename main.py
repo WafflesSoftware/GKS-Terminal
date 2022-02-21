@@ -34,6 +34,11 @@ def start():
         print("No help available yet.")
         input()
         start()
+    elif start_input == "userlist":
+        print()
+        print("Coming soon...")
+        input()
+        start()
     elif start_input == "exit":
         sys.exit()
     else:
