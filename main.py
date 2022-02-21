@@ -25,6 +25,15 @@ def start():
             print("Error: Wrong user input.")
             input()
             start()
+    elif start_input == "pause":
+        input()
+        print()
+        start()
+    elif start_input == "help":
+        print()
+        print("No help available yet.")
+        input()
+        start()
     elif start_input == "exit":
         sys.exit()
     else:
